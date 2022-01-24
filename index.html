@@ -114,6 +114,16 @@
 
 
     <section class="container my-5">
+        <!-- toast  -->
+        <div class="toast ms-lg-auto align-items-center show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body border-start border-5 border-primary">
+                    <img src="icons/Vector.svg" alt="">
+                    20% off on next booking!!
+                </div>
+                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
         <div class="row">
             <div class="col-12 col-lg-6">
                 <img class="img-fluid" src="images/wedding.png" alt="">
@@ -123,6 +133,8 @@
                 <p class="fw-bold text-muted">Client is the first priority to us. Every moment is precious of your life.
                     So enjoy your life well to you convention center. Special offer for limited time. Book now hurry
                     up!!</p>
+                    <button class="btn btn-primary text-whtie fw-bold">Explore our album <i class="fas fa-arrow-right"></i></button>
+                  
             </div>
         </div>
     </section>
@@ -343,39 +355,19 @@
     </section>
 
     <!-- tost -->
-    <div aria-live="polite" aria-atomic="true" class="position-relative">
-        <!-- Position it: -->
-        <!-- - `.toast-container` for spacing between toasts -->
-        <!-- - `.position-absolute`, `top-0` & `end-0` to position the toasts in the upper right corner -->
-        <!-- - `.p-3` to prevent the toasts from sticking to the edge of the container  -->
-        <div class="toast-container position-absolute top-0 end-0 p-3">
-    
-            <!-- Then put toasts within -->
-            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-header">
-                    <img src="..." class="rounded me-2" alt="...">
-                    <strong class="me-auto">Bootstrap</strong>
-                    <small class="text-muted">just now</small>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                </div>
-                <div class="toast-body">
-                    See? Just like this.
-                </div>
+    <!-- <div class="toast-container show">
+        <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header show">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small class="text-muted">just now</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
             </div>
-    
-            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="toast-header">
-                    <img src="..." class="rounded me-2" alt="...">
-                    <strong class="me-auto">Bootstrap</strong>
-                    <small class="text-muted">2 seconds ago</small>
-                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-                </div>
-                <div class="toast-body">
-                    Heads up, toasts will stack automatically
-                </div>
+            <div class="toast-body">
+                See? Just like this.
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- footer section  -->
     <footer class="h-50 bg-dark text-white mt-5">
