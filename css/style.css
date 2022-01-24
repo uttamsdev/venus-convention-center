@@ -4,9 +4,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.extra {
+.custom-card-style{
   position: relative;
-  top: -50px;
+  top: -55px;
   box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
   border-radius: 26px;
   width: 300px;
