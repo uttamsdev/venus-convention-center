@@ -11,7 +11,22 @@ body {
   border-radius: 26px;
   width: 300px;
 }
-.btn-bg {
+.custom-button {
   background: #f0e8ee;
   border-radius: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.custom-btn{
+  background: white;
+  border-radius: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fas{
+    color: #5243C2;
+}
+.custom-fa{
+    color: white;
 }
